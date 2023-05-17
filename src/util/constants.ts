@@ -5,7 +5,7 @@ import { ServerConfig } from "../api/config";
  * A list of all Among Us client versions supported by NodePolus.
  */
 export const SUPPORTED_VERSIONS: readonly ClientVersion[] = [
-  new ClientVersion(2021, 6, 30, 0),
+  new ClientVersion(2023, 3, 28, 0),
 ];
 
 /**
@@ -91,5 +91,7 @@ export const DEFAULT_LANGUAGES: ReadonlyMap<number, string> = new Map([
   [32, "Portugu\u{00EA}s"],
   [64, "Arabic"],
   [128, "Filipino"],
-  [256, "Polskie"],
-]);
+  [256, "French"],
+  [512, "German"],
+  [1024, "Italian"],
+  [2048, "Japanese"],
